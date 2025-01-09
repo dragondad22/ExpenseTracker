@@ -1,0 +1,12 @@
+name: "Add new issues to Backlog"
+on:
+  issues:
+    types: [opened]
+jobs:
+  add-to-backlog:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/add-to-project@v0.5.0
+        with:
+          project-url: https://github.com/users/${{ github.repository_owner }}/projects/1
+          column-name: "Backlog"
