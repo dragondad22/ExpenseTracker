@@ -10,15 +10,6 @@ assignees: ''
 ## User Story
 As a [type of user], I want to [action] so that [benefit/value]
 
-## Epic
-<!-- Select the related epic by removing other options -->
-- [ ] Authentication
-- [ ] Expense Management
-- [ ] Category Management
-- [ ] Dashboard
-- [ ] Import/Export
-- [ ] Security
-
 ## Story Points
 <!-- Add your estimate (1,2,3,5,8,13) -->
 Points: 
